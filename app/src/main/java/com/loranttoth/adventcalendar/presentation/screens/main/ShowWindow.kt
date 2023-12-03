@@ -30,13 +30,13 @@ fun ShowWindow() {
                     start = Offset(x = canvasWidth / 2, y = 0f),
                     end = Offset(x = canvasWidth / 2, y = canvasHeight),
                     strokeWidth = 3.dp.toPx(),
-                    color = Color.Black
+                    color = Color.DarkGray
                 )
                 drawLine(
                     start = Offset(x = 0.dp.toPx(), y = canvasHeight / 2),
                     end = Offset(x = canvasWidth, y = canvasHeight / 2),
                     strokeWidth = 3.dp.toPx(),
-                    color = Color.Black
+                    color = Color.DarkGray
                 )
             }
         }

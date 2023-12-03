@@ -2,6 +2,7 @@ package com.loranttoth.adventcalendar.presentation.screens.main
 
 import androidx.compose.foundation.Canvas
 import androidx.compose.foundation.background
+import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
@@ -54,6 +55,7 @@ fun DayItem(
 
     ElevatedCard(
         modifier = modifier
+            .border(width = 3.dp, color = Color.DarkGray)
             .clickable {
                 if (isOpenable) {
                     if (!isOpened) {
