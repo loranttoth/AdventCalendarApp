@@ -16,4 +16,7 @@ The free plan of th site you gives only 50 request/month, but with the caching t
 Description of the app:
 In the main screen you can see 24 windows of the Advent Calendar. You can open window on the same day or later, but never before! Every window has a Christmas postcard that you can see clicking on the opened window.
 
+![portrait view](https://dolcenatti.com/advent/screenshotportrait.png)
+
+![landscape view](https://dolcenatti.com/advent/screenshotlandscape.png)
 
